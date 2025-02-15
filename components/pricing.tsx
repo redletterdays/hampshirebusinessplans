@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactNode } from "react";
 
 const Pricing = () => {
   return (
@@ -405,6 +406,6 @@ const PricingCard = ({
   );
 };
 
-const List = ({ children }) => {
+const List = ({ children }: { children: ReactNode }) => {
   return <p className="text-base text-body-color">{children}</p>;
 };
