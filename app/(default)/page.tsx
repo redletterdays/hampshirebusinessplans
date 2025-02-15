@@ -9,7 +9,7 @@ import BusinessCategories from "@/components/business-categories";
 import FeaturesPlanet from "@/components/features-planet";
 import LargeTestimonial from "@/components/large-testimonial";
 import Cta from "@/components/cta";
-import Accordion from "@/components/accordion";
+import Faq from "@/components/faq";
 import PageIllustration from "@/components/page-illustration";
 import Banner from "@/components/banner";
 import Pricing from "@/components/pricing";
@@ -19,12 +19,13 @@ export default function Home() {
     <>
       <Hero />
       <Banner />
+      <LargeTestimonial />
       <BusinessCategories />
       <PageIllustration />
       <Pricing />
       <FeaturesPlanet />
-      <LargeTestimonial />
       <Cta />
+      <Faq />
     </>
   );
 }

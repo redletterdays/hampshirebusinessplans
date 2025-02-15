@@ -11,7 +11,7 @@ export default function Header() {
             <Logo />
           </div>
           {/* Site name */}
-          <div className=" flex flex-1 items-center justify-center text-lg font-bold text-gray-800">
+          <div className=" flex flex-1 text-center text-xl font-bold text-gray-800 sm:text-2xl md:text-3xl lg:text-4xl whitespace-nowrap">
             Hampshire Business Plans
           </div>
 
@@ -19,8 +19,8 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="/signin"
-                className="btn-sm bg-blue-600 text-white hover:bg-blue-700"
+                href="/"
+                className="btn-sm bg-primary text-white hover:bg-secondary"
               >
                 Get Started Now
               </Link>

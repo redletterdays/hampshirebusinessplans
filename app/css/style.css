@@ -57,6 +57,10 @@
   --animate-line: line;
   --animate-infinite-scroll: infinite-scroll;
 
+  --color-primary: #159cae;
+  --color-secondary: #127c89;
+  --color-accent: #12b8cc;
+
   @keyframes code-1 {
     0% {
       opacity: 0;

@@ -31,8 +31,8 @@ export default function LargeTestimonial() {
             </div>
             <p className="text-2xl font-bold text-gray-900">
               “Working with Hampshire Business Plans helped me establish a{" "}
-              <em className="italic text-gray-500">step by step</em>
-              it's become my go-to tool for everything.”
+              <em className="italic text-gray-500">step by step</em> process to
+              growing my capacity so that I could onboard more clients, efficiently.”
             </p>
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">Jon Simmons</span>{" "}

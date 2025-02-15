@@ -23,20 +23,13 @@ export default function FeaturesPlanet() {
             <div className="text-center">
               <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:animate-[pulse_4s_cubic-bezier(.4,0,.6,1)_infinite] before:bg-linear-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] after:[background:radial-gradient(closest-side,var(--color-blue-500),transparent)]">
                 <Image
-                  className="rounded-full bg-gray-900"
+                  className="rounded-full bg-gray-300"
                   src={PlanetImg}
                   width={400}
                   height={400}
                   alt="Planet"
                 />
                 <div className="pointer-events-none" aria-hidden="true">
-                  <Image
-                    className="absolute -right-64 -top-20 z-10 max-w-none"
-                    src={PlanetOverlayImg}
-                    width={789}
-                    height={755}
-                    alt="Planet decoration"
-                  />
                   <div>
                     <Image
                       className="absolute -left-28 top-16 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-80 transition-opacity duration-500"
@@ -77,7 +70,7 @@ export default function FeaturesPlanet() {
             </h2>
           </div>
           {/* Grid */}
-          <div className="grid overflow-hidden sm:grid-cols-2 lg:grid-cols-3 *:relative *:p-6 *:before:absolute *:before:bg-gray-800 *:before:[block-size:100vh] *:before:[inline-size:1px] *:before:[inset-block-start:0] *:before:[inset-inline-start:-1px] *:after:absolute *:after:bg-gray-800 *:after:[block-size:1px] *:after:[inline-size:100vw] *:after:[inset-block-start:-1px] *:after:[inset-inline-start:0] md:*:p-10">
+          <div className="grid overflow-hidden sm:grid-cols-2 lg:grid-cols-3 *:relative *:p-6 *:before:absolute *:before:bg-gray-400 *:before:[block-size:100vh] *:before:[inline-size:1px] *:before:[inset-block-start:0] *:before:[inset-inline-start:-1px] *:after:absolute *:after:bg-gray-400 *:after:[block-size:1px] *:after:[inline-size:100vw] *:after:[inset-block-start:-1px] *:after:[inset-inline-start:0] md:*:p-10">
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-700">
                 <svg
@@ -91,9 +84,9 @@ export default function FeaturesPlanet() {
                 <span>Executive Summary</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                A high-level overview of your business, outlining its purpose,
+                key objectives, and how you plan to achieve success. Investors
+                and stakeholders often read this first.
               </p>
             </article>
             <article>
@@ -109,9 +102,8 @@ export default function FeaturesPlanet() {
                 <span>Vision</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Your long-term mission and goals, defining the impact your
+                business aims to make in its industry and the world.
               </p>
             </article>
             <article>
@@ -131,9 +123,8 @@ export default function FeaturesPlanet() {
                 <span>Business Description</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                A detailed breakdown of your company, including its history,
+                structure, industry, and the problem it aims to solve.
               </p>
             </article>
             <article>
@@ -149,9 +140,9 @@ export default function FeaturesPlanet() {
                 <span>Products &amp; Services</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                A comprehensive overview of what your business offers, including
+                unique selling points, benefits, and how they meet customer
+                needs.
               </p>
             </article>
             <article>
@@ -167,9 +158,9 @@ export default function FeaturesPlanet() {
                 <span>Timing / Why now?</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                An explanation of why this is the perfect time to launch or grow
+                your business, considering market trends, demand, and industry
+                shifts.
               </p>
             </article>
             <article>
@@ -185,9 +176,8 @@ export default function FeaturesPlanet() {
                 <span>Traction</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Evidence of progress, such as customer growth, revenue,
+                partnerships, or milestones, demonstrating business viability.
               </p>
             </article>
             <article>
@@ -203,9 +193,8 @@ export default function FeaturesPlanet() {
                 <span>Business Model - Value Proposition</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                How your company generates revenue and delivers value to
+                customers, including pricing strategy and monetization methods.
               </p>
             </article>
             <article>
@@ -221,9 +210,9 @@ export default function FeaturesPlanet() {
                 <span>Competitive Analysis &amp; Your Unique Advantage</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                An assessment of competitors and how your business
+                differentiates itself, highlighting strengths and strategic
+                advantages.
               </p>
             </article>
             <article>
@@ -239,9 +228,8 @@ export default function FeaturesPlanet() {
                 <span>Market Analysis &amp; Research</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Insights into your target market, customer demographics, trends,
+                and demand, backed by industry research.
               </p>
             </article>
             <article>
@@ -257,9 +245,8 @@ export default function FeaturesPlanet() {
                 <span>Management Team &amp; Organisational Structure</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                A breakdown of your team, leadership experience, and company
+                hierarchy, showcasing expertise and operational efficiency.
               </p>
             </article>
             <article>
@@ -275,9 +262,8 @@ export default function FeaturesPlanet() {
                 <span>Marketing &amp; Sales Strategy - Go to Market Plan</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Your approach to attracting and retaining customers, including
+                advertising, branding, and sales channels.
               </p>
             </article>
             <article>
@@ -293,9 +279,8 @@ export default function FeaturesPlanet() {
                 <span>Operational Plan</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                How your business will function daily, covering logistics,
+                production, supply chain, and technology needs.
               </p>
             </article>
             <article>
@@ -311,9 +296,8 @@ export default function FeaturesPlanet() {
                 <span>Financial Plan - 3 Year Financial Forecast Model</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Projections of revenue, expenses, and profitability over three
+                years, with key financial metrics and assumptions.
               </p>
             </article>
             <article>
@@ -329,9 +313,8 @@ export default function FeaturesPlanet() {
                 <span>Investment Ask &amp; Use of Investment</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                The amount of funding needed, how it will be allocated, and
+                expected returns for investors.
               </p>
             </article>
             <article>
@@ -347,9 +330,8 @@ export default function FeaturesPlanet() {
                 <span>Risk Analysis</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Potential risks and challenges, along with strategies to
+                mitigate them, ensuring business resilience.
               </p>
             </article>
             <article>
@@ -365,9 +347,8 @@ export default function FeaturesPlanet() {
                 <span>Appendix of Supporting Documents</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Additional materials such as legal agreements, patents, market
+                research data, and references to support your business plan.
               </p>
             </article>
           </div>

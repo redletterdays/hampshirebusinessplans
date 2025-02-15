@@ -7,17 +7,14 @@ const Pricing = () => {
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div className="mx-auto mb-[60px] max-w-[510px] text-center">
+            <div className="mx-auto mb-[60px] max-w-2xl text-center">
               <span className="mb-2 block text-lg font-semibold text-primary">
-                Pricing Table
+                Hampshire Business Plans
               </span>
-              <h2 className="mb-3 text-3xl font-bold leading-[1.208] text-dark sm:text-4xl md:text-[40px]">
-                Our Pricing Plan
+              <h2 className="mb-3 text-2xl font-bold leading-[1.208] text-dark sm:text-2xl md:text-[40px]">
+                Choose A Business Plan Offering Thats Right For You
               </h2>
-              <p className="text-base text-body-color">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
+              <p className="text-base text-body-color"></p>
             </div>
           </div>
         </div>
@@ -115,56 +112,35 @@ const PricingCard = ({
 }) => {
   return (
     <>
-      <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-        <div className="relative z-10 mb-10 overflow-hidden rounded-[10px] border-2 border-stroke bg-white px-8 py-10 shadow-pricing sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
-          <span className="mb-3 block text-lg font-semibold text-primary">
+      <div className="w-full px-4 md:w-1/2 lg:w-1/3 flex">
+        <div className="relative z-10 mb-10 flex flex-col overflow-hidden rounded-[10px] border-2 border-stroke bg-white px-8 py-10 shadow-pricing sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
+          <span className="mb-3 block text-3xl font-semibold text-primary">
             {type}
           </span>
-          <h2 className="mb-5 text-[42px] font-bold text-dark">
-            {price}
-            <span className="text-base font-medium text-body-color">
-              / {subscription}
-            </span>
-          </h2>
           <p className="mb-8 border-b border-stroke pb-8 text-base text-body-color">
             {description}
           </p>
-          <div className="mb-9 flex flex-col gap-[14px]">{children}</div>
+          <div className="mb-8 flex flex-col space-y-5 flex-grow">
+            {children}
+          </div>
           <a
             href="/#"
             className={` ${
               active
-                ? "block w-full rounded-md border border-primary bg-primary p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
-                : "block w-full rounded-md border border-stroke bg-transparent p-3 text-center text-base font-medium text-primary transition hover:border-primary hover:bg-primary hover:text-white"
+                ? "mb-8 block w-full rounded-md border border-primary bg-primary p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
+                : "mb-8 block w-full rounded-md border border-stroke bg-transparent p-3 text-center text-base font-medium text-primary transition hover:border-primary hover:bg-primary hover:text-white"
             } `}
           >
             {buttonText}
           </a>
-          <div>
-            <span className="absolute right-0 top-7 z-[-1]">
-              <svg
-                width={77}
-                height={172}
-                viewBox="0 0 77 172"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx={86} cy={86} r={86} fill="url(#paint0_linear)" />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear"
-                    x1={86}
-                    y1={0}
-                    x2={86}
-                    y2={172}
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stopColor="#3056D3" stopOpacity="0.09" />
-                    <stop offset={1} stopColor="#C4C4C4" stopOpacity={0} />
-                  </linearGradient>
-                </defs>
-              </svg>
+          <h2 className="mb-2xl text-2xl font-medium text-dark">
+            {price}
+            <span className="text-base font-medium text-body-color">
+              {subscription}
             </span>
+          </h2>
+          <div>
+            <span className="absolute right-0 top-7 z-[-1]"></span>
             <span className="absolute right-4 top-4 z-[-1]">
               <svg
                 width={41}
@@ -407,5 +383,22 @@ const PricingCard = ({
 };
 
 const List = ({ children }: { children: ReactNode }) => {
-  return <p className="text-base text-body-color">{children}</p>;
+  return (
+    <p className="flex items-center space-x-2 text-base text-body-color">
+      <svg
+        className="w-5 h-5 flex-shrink-0 text-primary" // ✅ Consistent tick size
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fillRule="evenodd"
+          d="M16.707 5.293a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 1.414-1.414L9 11.586l6.293-6.293a1 1 0 0 1 1.414 0z"
+          clipRule="evenodd"
+        />
+      </svg>
+      <span className="text-base">{children}</span>{" "}
+      {/* ✅ Ensures text size remains constant */}
+    </p>
+  );
 };
