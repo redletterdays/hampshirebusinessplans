@@ -1,12 +1,14 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 /* Additional styles */
-@import './additional-styles/utility-patterns.css' layer(components);
-@import './additional-styles/theme.css';
+@import "./additional-styles/utility-patterns.css" layer(components);
+@import "./additional-styles/theme.css";
 
 @plugin "@tailwindcss/forms" {
   strategy: base;
 }
+/* Add TailGrids plugin */
+@plugin "tailgrids/plugin";
 
 @theme {
   --font-inter: Inter, sans-serif;
@@ -53,7 +55,7 @@
   --animate-breath: breath;
   --animate-float: float;
   --animate-line: line;
-  --animate-infinite-scroll: infinite-scroll;  
+  --animate-infinite-scroll: infinite-scroll;
 
   @keyframes code-1 {
     0% {

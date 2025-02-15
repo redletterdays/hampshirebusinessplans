@@ -12,6 +12,7 @@ import Cta from "@/components/cta";
 import Accordion from "@/components/accordion";
 import PageIllustration from "@/components/page-illustration";
 import Banner from "@/components/banner";
+import Pricing from "@/components/pricing";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Banner />
       <BusinessCategories />
       <PageIllustration />
+      <Pricing />
       <FeaturesPlanet />
       <LargeTestimonial />
       <Cta />
