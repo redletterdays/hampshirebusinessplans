@@ -11,7 +11,7 @@ export default function Header() {
             <Logo />
           </div>
           {/* Site name */}
-          <div className=" flex flex-1 items-center text-lg text-gray-800">
+          <div className=" flex flex-1 items-center justify-center text-lg font-bold text-gray-800">
             Hampshire Business Plans
           </div>
 

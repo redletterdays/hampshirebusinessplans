@@ -17,16 +17,16 @@ export default function Banner() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Download<span className="hidden sm:inline"> on GitHub</span>
+                Contact<span className="hidden sm:inline"> us Today</span>
               </a>{" "}
               <span className="px-1.5 italic">or</span>{" "}
               <a
-                className="font-medium text-emerald-400 hover:underline"
+                className="font-medium text-blue-400 hover:underline"
                 href="https://cruip.com/simple/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Check Premium Version
+                Get Started Now
               </a>
             </div>
             <button

@@ -9,12 +9,17 @@ import BusinessCategories from "@/components/business-categories";
 import FeaturesPlanet from "@/components/features-planet";
 import LargeTestimonial from "@/components/large-testimonial";
 import Cta from "@/components/cta";
+import Accordion from "@/components/accordion";
+import PageIllustration from "@/components/page-illustration";
+import Banner from "@/components/banner";
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <Banner />
       <BusinessCategories />
+      <PageIllustration />
       <FeaturesPlanet />
       <LargeTestimonial />
       <Cta />
