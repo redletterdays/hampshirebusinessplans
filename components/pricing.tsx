@@ -65,17 +65,26 @@ const Pricing = () => {
             </PricingCard>
             <PricingCard
               type="Full Expedition"
-              price="$256"
+              price="1,195 GBP"
               subscription=""
               description=""
               buttonText="Choose Full Expedition"
             >
-              <List>Unlimited User</List>
-              <List>All UI components</List>
-              <List>Lifetime access</List>
-              <List>Free updates</List>
-              <List>Unlimited project</List>
-              <List>12 Months support</List>
+              <List>Writing Your Business Plan</List>
+              <List>Creating Your Financial Forecast Model</List>
+              <List>
+                In-House Team Will Conduct Your Secondary Research In-Depth
+              </List>
+              <List>
+                Personalised Step by Step Guide To Moving Forward with Your
+                Business Plan
+              </List>
+              <List>Research Review Meeting</List>
+              <List>Designing Your Primary Research Questions</List>
+              <List>
+                Strategic Meeting to Provide Recommendations for Your Business
+                Plan & Financial Forecast Model
+              </List>
             </PricingCard>
           </div>
         </div>
@@ -93,7 +102,15 @@ const PricingCard = ({
   type,
   subscription,
   buttonText,
-  active,
+  active = false, // ✅ Default value ensures it's optional
+}: {
+  children: React.ReactNode;
+  description: string;
+  price: string;
+  type: string;
+  subscription: string;
+  buttonText: string;
+  active?: boolean; // ✅ Mark as optional
 }) => {
   return (
     <>
