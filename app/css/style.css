@@ -212,3 +212,8 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+
+/* Debug Horizontal Overflow 
+* {
+  outline: 1px solid red !important;
+}*/

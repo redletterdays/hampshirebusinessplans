@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${openSans.variable} ${raleway.variable} bg-gray-50 font-raleway tracking-tight text-gray-900 antialiased`}
       >
-        <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
+        <div className="flex min-h-screen flex-col overflow-x-hidden supports-[overflow:clip]:overflow-clip">
           {children}
         </div>
       </body>

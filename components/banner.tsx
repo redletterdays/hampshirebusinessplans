@@ -8,12 +8,12 @@ export default function Banner() {
   return (
     <>
       {bannerOpen && (
-        <div className="fixed bottom-0 right-0 z-50 w-full md:bottom-8 md:right-12 md:w-auto">
+        <div className="fixed bottom-0 right-0 z-50 w-full md:bottom-8 md:right-12 md:left-auto md:w-auto">
           <div className="flex justify-between bg-slate-800 p-3 text-sm text-slate-50 shadow-lg md:rounded-sm">
             <div className="inline-flex text-slate-500">
               <a
                 className="font-medium text-slate-50 hover:underline"
-                href="https://github.com/cruip/tailwind-landing-page-template"
+                href="mailto:paul@yourfinancialhorizon.com"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -22,7 +22,7 @@ export default function Banner() {
               <span className="px-1.5 italic">or</span>{" "}
               <a
                 className="font-medium text-primary hover:underline"
-                href="https://cruip.com/simple/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
