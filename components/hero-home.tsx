@@ -75,8 +75,9 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Tailored Business Plans for Hampshire
-              <br className="max-lg:hidden" />
+              Tailored Business Plans
+              <br /> for Hampshire <br className="max-lg:hidden" />
+              <br />
               <span
                 className={`transition-opacity duration-500 ease-in-out ${
                   isFading ? "opacity-0" : "opacity-100"
