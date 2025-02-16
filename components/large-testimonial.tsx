@@ -7,7 +7,7 @@ export default function LargeTestimonial() {
       <div className="mx-auto max-w-2xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="space-y-3 text-center">
-            <div className="relative inline-flex">
+            <div className="relative inline-flex animate-[breath_8s_ease-in-out_infinite_both]">
               <svg
                 className="absolute -left-6 -top-2 -z-10"
                 width={40}
@@ -32,7 +32,8 @@ export default function LargeTestimonial() {
             <p className="text-2xl font-bold text-gray-900">
               “Working with Hampshire Business Plans helped me establish a{" "}
               <em className="italic text-accent">step by step</em> process to
-              growing my capacity so that I could onboard more clients, efficiently.”
+              growing my capacity so that I could onboard more clients,
+              efficiently.”
             </p>
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">Jon Simmons</span>{" "}
