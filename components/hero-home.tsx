@@ -1,8 +1,53 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import PageIllustration from "@/components/page-illustration";
 import Avatar01 from "@/public/images/avatar-01.jpg";
 
+const businessNames = [
+  "Entrepreneurs",
+  "Bakers",
+  "Photographers",
+  "Fashion Designers",
+  "Real Estate Agents",
+  "Fitness Trainers",
+  "Restaurants",
+  "Tech Startups",
+  "Marketing Agencies",
+  "Consultants",
+  "Event Planners",
+  "Beauty Salons",
+  "Craftsmen",
+  "Law Firms",
+  "Medical Practices",
+  "Financial Advisors",
+  "Travel Agencies",
+  "Interior Designers",
+  "Freelance Writers",
+  "Software Developers",
+  "Art Galleries",
+];
+
 export default function HeroHome() {
+  const [currentNameIndex, setCurrentNameIndex] = useState(0);
+  const [isFading, setIsFading] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Start fade out
+      setIsFading(true);
+      // After the fade-out duration, update the name and fade in
+      setTimeout(() => {
+        setCurrentNameIndex(
+          (prevIndex) => (prevIndex + 1) % businessNames.length
+        );
+        setIsFading(false);
+      }, 500); // fade duration of 500ms
+    }, 3000); // change name every 3 seconds
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative">
       <PageIllustration />
@@ -30,8 +75,15 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Tailored Business Plans for <br className="max-lg:hidden" />
-              Hampshire Entrepreneurs
+              Tailored Business Plans for Hampshire
+              <br className="max-lg:hidden" />
+              <span
+                className={`transition-opacity duration-500 ease-in-out ${
+                  isFading ? "opacity-0" : "opacity-100"
+                }`}
+              >
+                {businessNames[currentNameIndex]}
+              </span>
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -69,45 +121,45 @@ export default function HeroHome() {
             data-aos="zoom-y-out"
             data-aos-delay={500}
           >
-            <div className="relative aspect-video rounded-3xl bg- px-5 py-3 shadow-xl before:pointer-events-none before:absolute before:-inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] after:absolute after:-inset-0 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,--theme(--color-slate-300/.8),transparent)1]">
+            <div className="relative aspect-video rounded-3xl bg- px-5 py-3 before:pointer-events-none before:absolute before:-inset-0 ">
               <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] after:w-[41px]">
                 <span className="text-[13px] font-medium text-black">
-                  Hampshire Business Plans
+                  Creating Your Business Plan
                 </span>
               </div>
-              <div className="font-mono text-gray-500 [&_span]:opacity-0">
-                <span className="animate-[code-1_12s_infinite] text-gray-800">
+              <div className="font-open-sans text-lg font-semibold text-gray-500 [&_span]:opacity-0">
+                <span className="animate-[code-1_10s_infinite] text-gray-800">
                   Writing Your Business Plan
                 </span>{" "}
                 <br />
                 <br />
-                <span className="animate-[code-2_12s_infinite] text-gray-800">
+                <span className="animate-[code-2_10s_infinite] text-gray-800">
                   Creating Your Financial Forecast Model
                 </span>
                 <br />
                 <br />
-                <span className="animate-[code-3_12s_infinite] text-gray-800">
+                <span className="animate-[code-3_10s_infinite] text-gray-800">
                   Personalised Step by Step Guide To Moving Forward with Your
                   Business Plan
                 </span>{" "}
                 <br />
                 <br />
-                <span className="animate-[code-4_12s_infinite] text-gray-800">
+                <span className="animate-[code-4_10s_infinite] text-gray-800">
                   Research Review Meeting
                 </span>
                 <br />
                 <br />
-                <span className="animate-[code-5_12s_infinite] text-gray-800">
+                <span className="animate-[code-5_10s_infinite] text-gray-800">
                   Designing Your Primary Research Questions
                 </span>
                 <br />
                 <br />
-                <span className="animate-[code-6_12s_infinite] text-gray-800">
+                <span className="animate-[code-6_10s_infinite] text-gray-800">
                   Designing Your Secondary Research Questions
                 </span>
                 <br />
                 <br />
-                <span className="animate-[code-7_12s_infinite] text-gray-800">
+                <span className="animate-[code-7_10s_infinite] text-gray-800">
                   Strategic Meeting to Provide Recommendations for Your Business
                   Plan & Financial Forecast Model
                 </span>{" "}
