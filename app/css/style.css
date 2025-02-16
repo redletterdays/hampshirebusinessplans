@@ -12,6 +12,7 @@
 
 @theme {
   --font-raleway: Raleway, sans-serif;
+  --font-open-sans: OpenSans, sans-serif;
   --font-mono: Roboto Mono, monospace;
 
   --text-xs: 0.75rem;

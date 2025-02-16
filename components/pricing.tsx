@@ -120,7 +120,7 @@ const PricingCard = ({
           <p className="mb-8 border-b border-stroke pb-8 text-base text-body-color">
             {description}
           </p>
-          <div className="mb-8 flex flex-col space-y-5 flex-grow">
+          <div className="mb-8 flex flex-col space-y-5 flex-grow font-open-sans">
             {children}
           </div>
           <a
@@ -133,7 +133,7 @@ const PricingCard = ({
           >
             {buttonText}
           </a>
-          <h2 className="mb-2xl text-2xl font-medium text-dark">
+          <h2 className="mb-2xl text-2xl font-medium text-dark font-open-sans">
             {price}
             <span className="text-base font-medium text-body-color">
               {subscription}
@@ -386,7 +386,7 @@ const List = ({ children }: { children: ReactNode }) => {
   return (
     <p className="flex items-center space-x-2 text-base text-body-color">
       <svg
-        className="w-5 h-5 flex-shrink-0 text-primary" // ✅ Consistent tick size
+        className="w-7 h-7 flex-shrink-0 text-primary" // ✅ Consistent tick size
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"

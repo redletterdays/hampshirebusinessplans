@@ -1,10 +1,16 @@
 import "./css/style.css";
 
-import { Raleway } from "next/font/google";
+import { Raleway, Open_Sans } from "next/font/google";
 
 const raleway = Raleway({
   subsets: ["latin"],
   variable: "--font-raleway",
+  display: "swap",
+});
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  variable: "--font-open-sans",
   display: "swap",
 });
 
@@ -22,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${raleway.variable} bg-gray-50 font-raleway tracking-tight text-gray-900 antialiased`}
+        className={`${openSans.variable} ${raleway.variable} bg-gray-50 font-raleway tracking-tight text-gray-900 antialiased`}
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
