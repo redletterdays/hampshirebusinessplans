@@ -83,7 +83,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Executive Summary</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 A high-level overview of your business, outlining its purpose,
                 key objectives, and how you plan to achieve success. Investors
                 and stakeholders often read this first.
@@ -101,7 +101,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Vision</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 Your long-term mission and goals, defining the impact your
                 business aims to make in its industry and the world.
               </p>
@@ -122,7 +122,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Business Description</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 A detailed breakdown of your company, including its history,
                 structure, industry, and the problem it aims to solve.
               </p>
@@ -139,7 +139,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Products &amp; Services</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 A comprehensive overview of what your business offers, including
                 unique selling points, benefits, and how they meet customer
                 needs.
@@ -157,7 +157,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Timing / Why now?</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 An explanation of why this is the perfect time to launch or grow
                 your business, considering market trends, demand, and industry
                 shifts.
@@ -175,7 +175,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Traction</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 Evidence of progress, such as customer growth, revenue,
                 partnerships, or milestones, demonstrating business viability.
               </p>
@@ -192,7 +192,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Business Model - Value Proposition</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 How your company generates revenue and delivers value to
                 customers, including pricing strategy and monetization methods.
               </p>
@@ -209,7 +209,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Competitive Analysis &amp; Your Unique Advantage</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 An assessment of competitors and how your business
                 differentiates itself, highlighting strengths and strategic
                 advantages.
@@ -227,7 +227,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Market Analysis &amp; Research</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 Insights into your target market, customer demographics, trends,
                 and demand, backed by industry research.
               </p>
@@ -244,7 +244,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Management Team &amp; Organisational Structure</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 A breakdown of your team, leadership experience, and company
                 hierarchy, showcasing expertise and operational efficiency.
               </p>
@@ -261,7 +261,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Marketing &amp; Sales Strategy - Go to Market Plan</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 Your approach to attracting and retaining customers, including
                 advertising, branding, and sales channels.
               </p>
@@ -278,7 +278,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Operational Plan</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 How your business will function daily, covering logistics,
                 production, supply chain, and technology needs.
               </p>
@@ -295,7 +295,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Financial Plan - 3 Year Financial Forecast Model</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 Projections of revenue, expenses, and profitability over three
                 years, with key financial metrics and assumptions.
               </p>
@@ -312,7 +312,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Investment Ask &amp; Use of Investment</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 The amount of funding needed, how it will be allocated, and
                 expected returns for investors.
               </p>
@@ -329,7 +329,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Risk Analysis</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 Potential risks and challenges, along with strategies to
                 mitigate them, ensuring business resilience.
               </p>
@@ -346,7 +346,7 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Appendix of Supporting Documents</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 font-open-sans">
                 Additional materials such as legal agreements, patents, market
                 research data, and references to support your business plan.
               </p>
