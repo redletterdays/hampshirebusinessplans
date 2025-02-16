@@ -4,7 +4,7 @@ import Avatar01 from "@/public/images/avatar-01.jpg";
 
 export default function HeroHome() {
   return (
-    <section className="relative overflow-x-hidden">
+    <section className="relative">
       <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-8">
         {/* Hero content */}
