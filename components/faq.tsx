@@ -20,12 +20,28 @@ export default function Faq() {
       </div>
       <div className="mx-auto max-w-3xl px-4 sm:px-6 text-primary">
         <Accordion title="What is Primary Research?" id="services">
-          A business plan is...
+          Primary research is{" "}
+          <strong className="bold text-accent">
+            speaking to your customers
+          </strong>{" "}
+          first hand. This can be done through{" "}
+          <strong className="bold text-accent">
+            customers surveys, interviews
+          </strong>{" "}
+          or a <strong className="bold text-accent">focus groups</strong>.
         </Accordion>
       </div>
       <div className="mx-auto max-w-3xl px-4 sm:px-6 text-primary">
         <Accordion title="What is Secondary Research?" id="services">
-          A business plan is...
+          Secondary research is{" "}
+          <strong className="bold text-accent">running online research</strong>{" "}
+          to find more about your{" "}
+          <strong className="bold text-accent">potential business</strong>. This
+          includes finding out{" "}
+          <strong className="bold text-accent">
+            industry trends, growth rate, competitors
+          </strong>{" "}
+          and etc.
         </Accordion>
       </div>
     </section>

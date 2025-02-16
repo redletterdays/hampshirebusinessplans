@@ -19,13 +19,13 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; Cruip.com - All rights reserved.
+              &copy; hampshirebusinessplans.co.uk - All rights reserved.
             </div>
           </div>
 
           {/* 2nd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h3 className="text-sm font-medium">Product</h3>
+            <h3 className="text-sm font-medium">Business Plans</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -56,7 +56,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-primary"
                   href="#0"
                 >
-                  Changelog
+                  Key Pillars
                 </Link>
               </li>
               <li>
@@ -64,7 +64,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-primary"
                   href="#0"
                 >
-                  Our method
+                  FAQ
                 </Link>
               </li>
             </ul>
@@ -87,14 +87,6 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-primary"
                   href="#0"
                 >
-                  Diversity & Inclusion
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-primary"
-                  href="#0"
-                >
                   Blog
                 </Link>
               </li>
@@ -103,15 +95,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-primary"
                   href="#0"
                 >
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-primary"
-                  href="#0"
-                >
-                  Financial statements
+                  Contact us
                 </Link>
               </li>
             </ul>
@@ -142,7 +126,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-primary"
                   href="#0"
                 >
-                  Report a vulnerability
+                  Privacy Policy
                 </Link>
               </li>
             </ul>

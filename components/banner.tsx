@@ -21,7 +21,7 @@ export default function Banner() {
               </a>{" "}
               <span className="px-1.5 italic">or</span>{" "}
               <a
-                className="font-medium text-blue-400 hover:underline"
+                className="font-medium text-primary hover:underline"
                 href="https://cruip.com/simple/"
                 target="_blank"
                 rel="noreferrer"
