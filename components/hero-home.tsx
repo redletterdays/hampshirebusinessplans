@@ -76,7 +76,7 @@ export default function HeroHome() {
               data-aos-delay={150}
             >
               Tailored Business Plans
-              <br /> for Hampshire <br className="max-lg:hidden" />
+              <br /> for Hampshire
               <br />
               <span
                 className={`transition-opacity duration-500 ease-in-out ${
