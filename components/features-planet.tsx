@@ -250,16 +250,22 @@ export default function FeaturesPlanet() {
               </p>
             </article>
             <article>
-              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-700">
-                <svg
-                  className="fill-primary"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
-                >
-                  <path d="M9 1a1 1 0 1 0-2 0v6a1 1 0 0 0 2 0V1ZM4.572 3.08a1 1 0 0 0-1.144-1.64A7.987 7.987 0 0 0 0 8a8 8 0 0 0 16 0c0-2.72-1.36-5.117-3.428-6.56a1 1 0 1 0-1.144 1.64A5.987 5.987 0 0 1 14 8 6 6 0 1 1 2 8a5.987 5.987 0 0 1 2.572-4.92Z" />
-                </svg>
-                <span>Marketing &amp; Sales Strategy - Go to Market Plan</span>
+              <h3 className="mb-2 flex items-center gap-2 font-medium text-gray-700">
+                <div className="flex-shrink-0">
+                  <svg
+                    className="fill-primary"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={16}
+                    height={16}
+                  >
+                    <path d="M9 1a1 1 0 1 0-2 0v6a1 1 0 0 0 2 0V1ZM4.572 3.08a1 1 0 0 0-1.144-1.64A7.987 7.987 0 0 0 0 8a8 8 0 0 0 16 0c0-2.72-1.36-5.117-3.428-6.56a1 1 0 1 0-1.144 1.64A5.987 5.987 0 0 1 14 8 6 6 0 1 1 2 8a5.987 5.987 0 0 1 2.572-4.92Z" />
+                  </svg>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <span className="break-words">
+                    Marketing &amp; Sales Strategy - Go to Market Plan
+                  </span>
+                </div>
               </h3>
               <p className="text-[15px] text-gray-400 font-open-sans">
                 Your approach to attracting and retaining customers, including
