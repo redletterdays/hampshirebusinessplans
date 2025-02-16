@@ -6,7 +6,7 @@ export default function Cta() {
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6 pb-16 md:pb-20">
         <div
-          className="relative overflow-hidden rounded-2xl text-center shadow-xl before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl before:bg-gray-900"
+          className="relative overflow-hidden rounded-2xl text-center shadow-xs border-stroke border-1 before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl before:bg-"
           data-aos="zoom-y-out"
         >
           {/* Glow */}
@@ -27,10 +27,14 @@ export default function Cta() {
               width={768}
               height={432}
               alt="Stripes"
+              style={{
+                filter:
+                  "brightness(0) saturate(100%) invert(43%) sepia(98%) saturate(2235%) hue-rotate(166deg) brightness(93%) contrast(90%)",
+              }}
             />
           </div>
           <div className="px-4 py-12 md:px-12 md:py-20">
-            <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-700/.7),transparent)1] md:mb-12 md:text-4xl">
+            <h2 className="mb-6 border-y text-3xl font-bold text-gray-900 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-700/.7),transparent)1] md:mb-12 md:text-4xl">
               Start your next business with Hampshire Business Plans
             </h2>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">

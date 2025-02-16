@@ -15,7 +15,7 @@ export default function FeaturesPlanet() {
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-black md:text-4xl">
               Hampshire Business Plans helps write your Business Plan so you can
-              move forward with confidence
+              take the next step forward with your business
             </h2>
           </div>
           {/* Planet */}
@@ -99,7 +99,7 @@ export default function FeaturesPlanet() {
                   width={16}
                   height={16}
                 >
-                  <path d="M14.29 2.614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z" />
+                  <path d="M14.29 .614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z" />
                 </svg>
                 <div className="flex-1 min-w-0">
                   <span className="break-words">Vision</span>

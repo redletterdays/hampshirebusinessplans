@@ -124,7 +124,7 @@ export default function HeroHome() {
           >
             <div className="relative aspect-video rounded-3xl bg- px-5 py-3 before:pointer-events-none before:absolute before:-inset-0 ">
               <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] after:w-[41px]">
-                <span className="text-[13px] font-medium text-black">
+                <span className="text-[16px] font-semibold text-primary">
                   Creating Your Business Plan
                 </span>
               </div>
