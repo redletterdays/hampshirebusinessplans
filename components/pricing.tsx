@@ -124,18 +124,20 @@ const PricingCard = ({
     <>
       <div className="w-full px-4 md:w-1/2 lg:w-1/3 flex">
         <div className="relative z-10 mb-10 flex flex-col overflow-hidden rounded-[10px] border-1 border-stroke bg-white/70 px-8 py-10 shadow-pricing sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
-          <span className="mb-3 block text-3xl font-semibold text-primary">
-            {type}
-          </span>
-          <svg
-            className="fill-primary absolute left-50 top-16 z-[-1]"
-            xmlns="http://www.w3.org/2000/svg"
-            width={16}
-            height={16}
-          >
-            <path d={svgPath1} opacity=".3" />
-            <path d={svgPath2} />
-          </svg>
+          <div className="flex flex-col-1 gap-4">
+            <span className="mb-3 block text-3xl font-semibold text-primary">
+              {type}
+            </span>
+            <svg
+              className="fill-primary"
+              xmlns="http://www.w3.org/2000/svg"
+              width={16}
+              height={16}
+            >
+              <path d={svgPath1} opacity=".3" />
+              <path d={svgPath2} />
+            </svg>
+          </div>
           <p className="mb-8 border-b border-stroke pb-8 text-base text-body-color">
             {description}
           </p>
