@@ -4,7 +4,7 @@ import React, { ReactNode } from "react";
 
 export const ListTick = ({ children }: { children: ReactNode }) => {
   return (
-    <p className="flex items-center space-x-10 text-4xl text-body-color">
+    <p className="flex items-center space-x-10 text-4xl text-body-color font-open-sans">
       <svg
         className="w-7 h-7 flex-shrink-0 text-primary"
         xmlns="http://www.w3.org/2000/svg"
