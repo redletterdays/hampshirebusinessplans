@@ -31,7 +31,7 @@ const About1 = () => {
                 </p>
                 <a
                   href="javascript:void(0)"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
+                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-primary border border-stroke rounded-md px-7 bg-transparent transition hover:border-primary hover:bg-primary hover:text-white"
                 >
                   Choose Compass
                 </a>
@@ -49,7 +49,7 @@ const About1 = () => {
                   Strategic Meeting to Provide Recommendations for Your Business
                   Plan & Financial Forecast Model
                 </ListTick>
-                <span className="px-17 text-md font-semibold font-open-sans">
+                <span className="px-17 text-md font-normal font-open-sans text-body-color">
                   495 GBP
                 </span>
               </div>
@@ -84,7 +84,7 @@ const About1 = () => {
                 </p>
                 <a
                   href="javascript:void(0)"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
+                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary transition hover:bg-secondary"
                 >
                   Choose Map
                 </a>
@@ -105,7 +105,7 @@ const About1 = () => {
                   Strategic Meeting to Provide Recommendations for Your Business
                   Plan & Financial Forecast Model
                 </ListTick>
-                <span className="px-17 text-md font-semibold font-open-sans">
+                <span className="px-17 text-md font-normal font-open-sans text-body-color">
                   795 GBP
                 </span>
               </div>
@@ -137,7 +137,7 @@ const About1 = () => {
                 </p>
                 <a
                   href="javascript:void(0)"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
+                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-primary border border-stroke rounded-md px-7 bg-transparent transition hover:border-primary hover:bg-primary hover:text-white"
                 >
                   Choose Full Expedition
                 </a>
@@ -160,7 +160,7 @@ const About1 = () => {
                   Strategic Meeting to Provide Recommendations for Your Business
                   Plan & Financial Forecast Model
                 </ListTick>
-                <span className="px-17 text-md font-semibold font-open-sans">
+                <span className="px-17 text-md font-normal font-open-sans text-body-color">
                   1,195 GBP
                 </span>
               </div>

@@ -85,10 +85,6 @@ export default function HeroHome() {
               >
                 {businessNames[currentNameIndex]}
               </span>
-              {/* Top animated border */}
-              <div className="absolute inset-x-0 top-1/2 -z-10 h-px -translate-y-[96px] bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_both] before:bg-linear-to-r before:via-accent"></div>
-              {/* Bottom animated border */}
-              <div className="absolute inset-x-0 top-1/2 -z-10 h-px translate-y-[96px] bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_5s_both] before:bg-linear-to-r before:via-accent"></div>
             </h1>
             <div className="mx-auto max-w-3xl">
               <p

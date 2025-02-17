@@ -127,7 +127,7 @@ const PricingCard = ({
             href="/#"
             className={` ${
               active
-                ? "mb-8 block w-full rounded-md border border-primary bg-primary p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
+                ? "mb-8 block w-full rounded-md border border-primary bg-primary p-3 text-center text-base font-medium text-white transition hover:bg-secondary"
                 : "mb-8 block w-full rounded-md border border-stroke bg-transparent p-3 text-center text-base font-medium text-primary transition hover:border-primary hover:bg-primary hover:text-white"
             } `}
           >
