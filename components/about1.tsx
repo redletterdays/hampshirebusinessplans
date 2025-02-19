@@ -1,5 +1,6 @@
 import React from "react";
 import { ListTick } from "./listtick";
+import { MapIcon, CompassIcon, FullExpeditionIcon } from "./svgicons";
 
 const About1 = () => {
   return (
@@ -9,9 +10,12 @@ const About1 = () => {
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-4xl font-semibold text-primary">
-                  Compass
-                </span>
+                <div className="flex flex-row gap-4">
+                  <span className="block mb-4 text-4xl font-semibold text-primary">
+                    Compass
+                  </span>
+                  <CompassIcon />
+                </div>
                 <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px]">
                   You’ve done the legwork of writing the business plan
                 </h2>
@@ -62,9 +66,12 @@ const About1 = () => {
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-4xl font-semibold text-primary">
-                  Map
-                </span>
+                <div className="flex flex-row gap-4">
+                  <span className="block mb-4 text-4xl font-semibold text-primary">
+                    Map
+                  </span>
+                  <MapIcon />
+                </div>
                 <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px]">
                   Wanting to start a business but you're unsure how to begin
                   with your business plan?
@@ -118,9 +125,12 @@ const About1 = () => {
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-4xl font-semibold text-primary">
-                  Full Expedition
-                </span>
+                <div className="flex flex-row gap-4">
+                  <span className="block mb-4 text-4xl font-semibold text-primary">
+                    Full Expedition
+                  </span>
+                  <FullExpeditionIcon />
+                </div>
                 <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px]">
                   Planning to start a business but don't have the time or the
                   desire to handle the online research and preparation?

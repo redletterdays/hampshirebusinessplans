@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactNode } from "react";
+import { MapIcon, CompassIcon, FullExpeditionIcon } from "./svgicons";
 
 const Pricing = () => {
   return (
@@ -23,8 +24,7 @@ const Pricing = () => {
           <div className="-mx-4 flex flex-wrap">
             <PricingCard
               type="Compass"
-              svgPath1="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Zm1 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H5Z"
-              svgPath2="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Zm1 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H5Z"
+              SvgIcons={[CompassIcon]}
               price="495 GBP"
               subscription=""
               description=""
@@ -43,8 +43,7 @@ const Pricing = () => {
             </PricingCard>
             <PricingCard
               type="Map"
-              svgPath1="M14.29 .614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z"
-              svgPath2="M14.29 .614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z"
+              SvgIcons={[MapIcon]}
               price="795 GBP"
               subscription=""
               description=""
@@ -67,8 +66,7 @@ const Pricing = () => {
             </PricingCard>
             <PricingCard
               type="Full Expedition"
-              svgPath1="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1.715-6.752a1 1 0 0 1 .57-1.916 8.014 8.014 0 0 1 5.383 5.383 1 1 0 1 1-1.916.57 6.014 6.014 0 0 0-4.037-4.037Zm4.037 7.467a1 1 0 1 1 1.916.57 8.014 8.014 0 0 1-5.383 5.383 1 1 0 1 1-.57-1.916 6.014 6.014 0 0 0 4.037-4.037Zm-7.467 4.037a1 1 0 1 1-.57 1.916 8.014 8.014 0 0 1-5.383-5.383 1 1 0 1 1 1.916-.57 6.014 6.014 0 0 0 4.037 4.037Z"
-              svgPath2="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1.715-6.752a1 1 0 0 1 .57-1.916 8.014 8.014 0 0 1 5.383 5.383 1 1 0 1 1-1.916.57 6.014 6.014 0 0 0-4.037-4.037Zm4.037 7.467a1 1 0 1 1 1.916.57 8.014 8.014 0 0 1-5.383 5.383 1 1 0 1 1-.57-1.916 6.014 6.014 0 0 0 4.037-4.037Zm-7.467 4.037a1 1 0 1 1-.57 1.916 8.014 8.014 0 0 1-5.383-5.383 1 1 0 1 1 1.916-.57 6.014 6.014 0 0 0 4.037 4.037Z"
+              SvgIcons={[FullExpeditionIcon]}
               price="1,195 GBP"
               subscription=""
               description=""
@@ -104,8 +102,7 @@ const PricingCard = ({
   description,
   price,
   type,
-  svgPath1,
-  svgPath2,
+  SvgIcons = [],
   subscription,
   buttonText,
   active = false, // ✅ Default value ensures it's optional
@@ -114,8 +111,7 @@ const PricingCard = ({
   description: string;
   price: string;
   type: string;
-  svgPath1: string;
-  svgPath2: string;
+  SvgIcons?: React.FC[];
   subscription: string;
   buttonText: string;
   active?: boolean; // ✅ Mark as optional
@@ -124,19 +120,15 @@ const PricingCard = ({
     <>
       <div className="w-full px-4 md:w-1/2 lg:w-1/3 flex">
         <div className="relative z-10 mb-10 flex flex-col overflow-hidden rounded-[10px] border-1 border-stroke bg-white/70 px-8 py-10 shadow-pricing sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
-          <div className="flex flex-col-1 gap-4">
-            <span className="mb-3 block text-3xl font-semibold text-primary">
+          <div className="mb-3 flex flex-row items-center gap-4">
+            <span className="block text-3xl md:text-2xl sm:text-xl font-semibold text-primary whitespace-nowrap">
               {type}
             </span>
-            <svg
-              className="fill-primary"
-              xmlns="http://www.w3.org/2000/svg"
-              width={16}
-              height={16}
-            >
-              <path d={svgPath1} opacity=".3" />
-              <path d={svgPath2} />
-            </svg>
+            <div>
+              {SvgIcons.map((Icon, index) => (
+                <Icon key={index} />
+              ))}
+            </div>
           </div>
           <p className="mb-8 border-b border-stroke pb-8 text-base text-body-color">
             {description}
