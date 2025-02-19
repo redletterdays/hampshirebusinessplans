@@ -20,13 +20,13 @@ export default function PageIllustration() {
       </div>
       {/* Circles */}
       <div
-        className="pointer-events-none absolute -top-32 left-1/2 md:ml-[580px] ml-0 -translate-x-1/2"
+        className="pointer-events-none absolute -top-32 left-1/2 md:ml-[220px] ml-0 -translate-x-1/2"
         aria-hidden="true"
       >
         <div className="h-80 w-80 rounded-full bg-linear-to-tr from-primary opacity-50 blur-[160px]" />
       </div>
       <div
-        className="pointer-events-none absolute left-1/2 top-[420px] md:ml-[380px] ml-0 -translate-x-1/2"
+        className="pointer-events-none absolute left-1/2 top-[420px] md:ml-[220px] ml-0 -translate-x-1/2"
         aria-hidden="true"
       >
         <div className="h-80 w-80 rounded-full bg-linear-to-tr from-primary to-accent opacity-50 blur-[160px]" />
