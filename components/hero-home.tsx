@@ -40,7 +40,7 @@ export default function HeroHome() {
       // After the fade-out duration, update the name and fade in
       setTimeout(() => {
         setCurrentNameIndex(
-          (prevIndex) => (prevIndex + 1) % businessNames.length
+          (prevIndex) => (prevIndex + 1) % businessNames.length,
         );
         setIsFading(false);
       }, 500); // fade duration of 500ms
@@ -53,7 +53,7 @@ export default function HeroHome() {
       <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-8">
         {/* Hero content */}
-        <div className="pb-12 pt-32 md:pb-20 md:pt-40">
+        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <div
@@ -122,7 +122,7 @@ export default function HeroHome() {
             data-aos="zoom-y-out"
             data-aos-delay={500}
           >
-            <div className="relative aspect-video rounded-3xl bg- px-5 py-3 before:pointer-events-none before:absolute before:-inset-0 ">
+            <div className="bg- relative aspect-video rounded-3xl px-5 py-3 before:pointer-events-none before:absolute before:-inset-0">
               <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] after:w-[41px]">
                 <span className="text-[16px] font-semibold text-primary">
                   Creating Your Business Plan

@@ -9,7 +9,7 @@ export default function Faq() {
         </h2>
       </div>
       <div className="space-y-4">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-lg text-primary">
+        <div className="mx-auto max-w-3xl px-4 text-lg text-primary sm:px-6">
           <Accordion
             title="What is a Business Plan?"
             id="services text-primary"
@@ -17,12 +17,12 @@ export default function Faq() {
             A business plan is...
           </Accordion>
         </div>
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-lg text-primary">
+        <div className="mx-auto max-w-3xl px-4 text-lg text-primary sm:px-6">
           <Accordion title="What is a Financial Forecast Model?" id="services">
             A business plan is...
           </Accordion>
         </div>
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-lg text-primary">
+        <div className="mx-auto max-w-3xl px-4 text-lg text-primary sm:px-6">
           <Accordion title="What is Primary Research?" id="services">
             Primary research is{" "}
             <strong className="bold text-accent">
@@ -35,7 +35,7 @@ export default function Faq() {
             or a <strong className="bold text-accent">focus groups</strong>.
           </Accordion>
         </div>
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-lg text-primary">
+        <div className="mx-auto max-w-3xl px-4 text-lg text-primary sm:px-6">
           <Accordion title="What is Secondary Research?" id="services">
             Secondary research is{" "}
             <strong className="bold text-accent">

@@ -4,9 +4,9 @@ import Stripes from "@/public/images/stripes-dark.svg";
 export default function Cta() {
   return (
     <section>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 pb-16 md:pb-20">
+      <div className="mx-auto max-w-6xl px-4 pb-16 sm:px-6 md:pb-20">
         <div
-          className="relative overflow-hidden rounded-2xl text-center shadow-xs border-stroke border-1 before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl before:bg-"
+          className="before:bg- relative overflow-hidden rounded-2xl border-1 border-stroke text-center shadow-xs before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl"
           data-aos="zoom-y-out"
         >
           {/* Glow */}
@@ -18,7 +18,7 @@ export default function Cta() {
           </div>
           {/* Stripes illustration */}
           <div
-            className="pointer-events-none absolute left-1/2 top-0 -z-10 -translate-x-1/2 transform"
+            className="pointer-events-none absolute top-0 left-1/2 -z-10 -translate-x-1/2 transform"
             aria-hidden="true"
           >
             <Image

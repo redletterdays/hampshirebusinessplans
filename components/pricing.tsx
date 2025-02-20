@@ -4,7 +4,7 @@ import { MapIcon, CompassIcon, FullExpeditionIcon } from "./svgicons";
 
 const Pricing = () => {
   return (
-    <section className="relative z-10 overflow-hidden bg pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
+    <section className="bg relative z-10 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -12,7 +12,7 @@ const Pricing = () => {
               <span className="mb-2 block text-lg font-semibold text-primary">
                 Hampshire Business Plans
               </span>
-              <h2 className="mb-3 text-2xl font-bold leading-[1.208] text-dark sm:text-2xl md:text-[40px]">
+              <h2 className="mb-3 text-2xl leading-[1.208] font-bold text-dark sm:text-2xl md:text-[40px]">
                 Choose A Business Plan Offering Thats Right For You
               </h2>
               <p className="text-base text-body-color"></p>
@@ -118,10 +118,10 @@ const PricingCard = ({
 }) => {
   return (
     <>
-      <div className="w-full px-4 md:w-1/2 lg:w-1/3 flex">
+      <div className="flex w-full px-4 md:w-1/2 lg:w-1/3">
         <div className="relative z-10 mb-10 flex flex-col overflow-hidden rounded-[10px] border-1 border-stroke bg-white/70 px-8 py-10 shadow-pricing sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
           <div className="mb-3 flex flex-row items-center gap-4">
-            <span className="block text-3xl md:text-2xl sm:text-xl font-semibold text-primary whitespace-nowrap">
+            <span className="block text-3xl font-semibold whitespace-nowrap text-primary sm:text-xl md:text-2xl">
               {type}
             </span>
             <div>
@@ -133,7 +133,7 @@ const PricingCard = ({
           <p className="mb-8 border-b border-stroke pb-8 text-base text-body-color">
             {description}
           </p>
-          <div className="mb-8 flex flex-col space-y-5 flex-grow font-open-sans">
+          <div className="mb-8 flex flex-grow flex-col space-y-5 font-open-sans">
             {children}
           </div>
           <a
@@ -146,15 +146,15 @@ const PricingCard = ({
           >
             {buttonText}
           </a>
-          <h2 className="mb-2xl text-2xl font-medium text-dark font-open-sans">
+          <h2 className="mb-2xl font-open-sans text-2xl font-medium text-dark">
             {price}
             <span className="text-base font-medium text-body-color">
               {subscription}
             </span>
           </h2>
           <div>
-            <span className="absolute right-0 top-7 z-[-1]"></span>
-            <span className="absolute right-4 top-4 z-[-1]">
+            <span className="absolute top-7 right-0 z-[-1]"></span>
+            <span className="absolute top-4 right-4 z-[-1]">
               <svg
                 width={41}
                 height={89}
@@ -399,7 +399,7 @@ const List = ({ children }: { children: ReactNode }) => {
   return (
     <p className="flex items-center space-x-2 text-base text-body-color">
       <svg
-        className="w-7 h-7 flex-shrink-0 text-primary" // ✅ Consistent tick size
+        className="h-7 w-7 flex-shrink-0 text-primary" // ✅ Consistent tick size
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"

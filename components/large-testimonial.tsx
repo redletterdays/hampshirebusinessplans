@@ -9,7 +9,7 @@ export default function LargeTestimonial() {
           <div className="space-y-3 text-center">
             <div className="relative inline-flex animate-[breath_8s_ease-in-out_infinite_both]">
               <svg
-                className="absolute -left-6 -top-2 -z-10"
+                className="absolute -top-2 -left-6 -z-10"
                 width={40}
                 height={49}
                 viewBox="0 0 40 49"
@@ -31,7 +31,7 @@ export default function LargeTestimonial() {
             </div>
             <p className="text-2xl font-bold text-gray-900">
               “Working with Hampshire Business Plans helped me establish a{" "}
-              <em className="italic text-accent">step by step</em> process to
+              <em className="text-accent italic">step by step</em> process to
               growing my capacity so that I could onboard more clients,
               efficiently.”
             </p>
