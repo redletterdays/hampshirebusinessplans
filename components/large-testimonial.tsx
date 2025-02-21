@@ -39,7 +39,7 @@ export default function LargeTestimonial() {
               <span className="text-gray-700">Jon Simmons</span>{" "}
               <span className="text-gray-400">/</span>{" "}
               <a className="text-primary" href="#0">
-                israelinvestment.org
+                Content Expert
               </a>
             </div>
           </div>
