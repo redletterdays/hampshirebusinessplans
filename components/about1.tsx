@@ -34,7 +34,7 @@ const About1 = () => {
                   recommendations.
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
                   className="inline-flex items-center justify-center rounded-md border border-stroke bg-transparent px-7 py-3 text-center text-base font-medium text-primary transition hover:border-primary hover:bg-primary hover:text-white"
                 >
                   Choose Compass
@@ -90,7 +90,7 @@ const About1 = () => {
                   We’ll work with you on developing your Financial Model.
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
                   className="inline-flex items-center justify-center rounded-md border border-transparent bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-secondary"
                 >
                   Choose Map
@@ -146,7 +146,7 @@ const About1 = () => {
                   your business success and shaping your vision.
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
                   className="inline-flex items-center justify-center rounded-md border border-stroke bg-transparent px-7 py-3 text-center text-base font-medium text-primary transition hover:border-primary hover:bg-primary hover:text-white"
                 >
                   Choose Full Expedition
