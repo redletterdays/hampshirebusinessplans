@@ -103,7 +103,7 @@ export default function HeroHome() {
                 >
                   <a
                     className="btn group mb-4 w-full bg-linear-to-t from-primary to-secondary bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    href="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
                   >
                     <span className="relative inline-flex items-center">
                       Get Started Now{" "}

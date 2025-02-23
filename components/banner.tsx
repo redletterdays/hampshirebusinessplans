@@ -22,7 +22,7 @@ export default function Banner() {
               <span className="px-1.5 italic">or</span>{" "}
               <a
                 className="font-medium text-primary hover:underline"
-                href=""
+                href="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
                 target="_blank"
                 rel="noreferrer"
               >

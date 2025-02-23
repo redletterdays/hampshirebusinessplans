@@ -15,7 +15,7 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="/signin"
+                href="mailto:paul@yourfinancialhorizon.com"
                 className="btn-sm bg-white text-gray-800 shadow-sm hover:bg-gray-50"
               >
                 Contact us Today
@@ -23,7 +23,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/signup"
+                href="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
                 className="btn-sm bg-primary text-gray-200 shadow-sm hover:bg-secondary"
               >
                 Get Started Now

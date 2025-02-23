@@ -29,6 +29,7 @@ const Pricing = () => {
               subscription=""
               description=""
               buttonText="Choose Compass"
+              buttonLink="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
             >
               <List>Refining Your Business Plan</List>
               <List>Reviewing Your Financial Forecast Model</List>
@@ -48,6 +49,7 @@ const Pricing = () => {
               subscription=""
               description=""
               buttonText="Choose Map"
+              buttonLink="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
               active
             >
               <List>Writing Your Business Plan</List>
@@ -71,6 +73,7 @@ const Pricing = () => {
               subscription=""
               description=""
               buttonText="Choose Full Expedition"
+              buttonLink="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
             >
               <List>Writing Your Business Plan</List>
               <List>Creating Your Financial Forecast Model</List>
@@ -106,6 +109,7 @@ const PricingCard = ({
   subscription,
   buttonText,
   active = false, // ✅ Default value ensures it's optional
+  buttonLink,
 }: {
   children: React.ReactNode;
   description: string;
@@ -115,6 +119,7 @@ const PricingCard = ({
   subscription: string;
   buttonText: string;
   active?: boolean; // ✅ Mark as optional
+  buttonLink: string;
 }) => {
   return (
     <>
@@ -137,7 +142,7 @@ const PricingCard = ({
             {children}
           </div>
           <a
-            href="/#"
+            href={buttonLink}
             className={` ${
               active
                 ? "mb-8 block w-full rounded-md border border-primary bg-primary p-3 text-center text-base font-medium text-white transition hover:bg-secondary"
