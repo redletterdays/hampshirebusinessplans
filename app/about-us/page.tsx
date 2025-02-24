@@ -8,12 +8,13 @@ import Cta from "@/components/cta";
 import Faq from "@/components/faq";
 import Banner from "@/components/banner";
 import Privacy from "@/components/privacy";
+import AboutUs from "@/components/about-us";
 
 export default function Home() {
   return (
     <>
       <Banner />
-      <Privacy />
+      <AboutUs />
       <Cta />
       <Faq />
     </>

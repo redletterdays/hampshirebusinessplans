@@ -69,7 +69,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
-                  href="#0"
+                  href="/about-us"
                 >
                   About us
                 </Link>
