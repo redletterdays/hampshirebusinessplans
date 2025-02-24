@@ -11,7 +11,7 @@ export default function Logo() {
         xmlns="http://www.w3.org/2000/svg"
         width="28"
         height="28"
-        viewBox="0 0 500 500"
+        viewBox="0 0 520 520"
       >
         <path
           className="fill-secondary"
