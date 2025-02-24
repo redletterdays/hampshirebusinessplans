@@ -1,18 +1,13 @@
 import React from "react";
-import {
-  MapIcon,
-  CompassIcon,
-  FullExpeditionIcon,
-  PrivacyIcon,
-} from "./svgicons";
+import { PrivacyIcon } from "./svgicons";
 
 const Privacy = () => {
   return (
     <>
       <section className="bg overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
-        <div className="container mx-auto">
+        <div className="mx-auto max-w-6xl px-8">
           <div className="-mx-6 flex flex-wrap items-center justify-between">
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div className="w-full px-4 lg:w-1/2 xl:w-8/12">
               <div className="mt-10 lg:mt-0">
                 <div className="flex flex-row gap-4">
                   <span className="mb-4 block text-4xl font-semibold text-primary">
@@ -20,7 +15,7 @@ const Privacy = () => {
                   </span>
                   <PrivacyIcon />
                 </div>
-                <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px]">
+                <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[30px]/[38px]">
                   A legal disclaimer
                 </h2>
                 <p className="mb-5 font-open-sans text-base text-body-color">
@@ -99,7 +94,7 @@ const Privacy = () => {
                   identifiable.
                 </p>
                 <p className="mb-8 font-open-sans text-base text-body-color">
-                  The purpose of the information is for analyzing trends,
+                  The purpose of the information is for analysing trends,
                   administering the site, tracking users' movement on the
                   website, and gathering demographic information.
                 </p>
@@ -110,47 +105,49 @@ const Privacy = () => {
                   We use the information we collect in various ways, including
                   to:
                 </p>
-                <ul>
-                  <li>
-                    <p className="mb-2 font-open-sans text-base text-body-color">
-                      Provide, operate, and maintain our website
-                    </p>
-                  </li>
-                  <li>
-                    <p className="mb-2 font-open-sans text-base text-body-color">
-                      Improve, personalise, and expand our website
-                    </p>
-                  </li>
-                  <li>
-                    <p className="mb-2 font-open-sans text-base text-body-color">
-                      Understand and analyse how you use our website
-                    </p>
-                  </li>{" "}
-                  <li>
-                    <p className="mb-2 font-open-sans text-base text-body-color">
-                      Develop new products, services, features, and
-                      functionality
-                    </p>
-                  </li>{" "}
-                  <li>
-                    <p className="mb-2 font-open-sans text-base text-body-color">
-                      Communicate with you, either directly or through one of
-                      our partners, including for customer service, to provide
-                      you with updates and other information relating to the
-                      website, and for marketing and promotional purposes
-                    </p>
-                  </li>{" "}
-                  <li>
-                    <p className="mb-2 font-open-sans text-base text-body-color">
-                      Send you emails
-                    </p>
-                  </li>{" "}
-                  <li>
-                    <p className="mb-2 font-open-sans text-base text-body-color">
-                      Find and prevent fraud
-                    </p>
-                  </li>
-                </ul>
+                <div className="mb-8">
+                  <ul className="ml-6 list-item list-disc space-y-2">
+                    <li>
+                      <p className="mb-2 font-open-sans text-base text-body-color">
+                        Provide, operate, and maintain our website
+                      </p>
+                    </li>
+                    <li>
+                      <p className="mb-2 font-open-sans text-base text-body-color">
+                        Improve, personalise, and expand our website
+                      </p>
+                    </li>
+                    <li>
+                      <p className="mb-2 font-open-sans text-base text-body-color">
+                        Understand and analyse how you use our website
+                      </p>
+                    </li>{" "}
+                    <li>
+                      <p className="mb-2 font-open-sans text-base text-body-color">
+                        Develop new products, services, features, and
+                        functionality
+                      </p>
+                    </li>{" "}
+                    <li>
+                      <p className="mb-2 font-open-sans text-base text-body-color">
+                        Communicate with you, either directly or through one of
+                        our partners, including for customer service, to provide
+                        you with updates and other information relating to the
+                        website, and for marketing and promotional purposes
+                      </p>
+                    </li>{" "}
+                    <li>
+                      <p className="mb-2 font-open-sans text-base text-body-color">
+                        Send you emails
+                      </p>
+                    </li>{" "}
+                    <li>
+                      <p className="mb-2 font-open-sans text-base text-body-color">
+                        Find and prevent fraud
+                      </p>
+                    </li>
+                  </ul>
+                </div>
 
                 <h3 className="mb-5 text-3xl font-bold text-dark sm:text-[20px]/[28px]">
                   Cookies and Web Beacons
@@ -165,8 +162,8 @@ const Privacy = () => {
                   visitor accessed or visited.
                 </p>
                 <p className="mb-8 font-open-sans text-base text-body-color">
-                  The information is used to optimize the users' experience by
-                  customizing our web page content based on visitors' browser
+                  The information is used to optimise the users' experience by
+                  customising our web page content based on visitors' browser
                   type and/or other information.
                 </p>
                 <h3 className="mb-5 text-3xl font-bold text-dark sm:text-[20px]/[28px]">
@@ -187,7 +184,7 @@ const Privacy = () => {
                 </p>
                 <p className="mb-8 font-open-sans text-base text-body-color">
                   These technologies are used to measure the effectiveness of
-                  their advertising campaigns and/or to personalize the
+                  their advertising campaigns and/or to personalise the
                   advertising content that you see on websites that you visit.
                 </p>
                 <p className="mb-8 font-open-sans text-base text-body-color">
@@ -257,7 +254,7 @@ const Privacy = () => {
                 <p className="mb-8 font-open-sans text-base text-body-color">
                   The right to data portability – You have the right to request
                   that we transfer the data that we have collected to another
-                  organization, or directly to you, under certain conditions.
+                  organisation, or directly to you, under certain conditions.
                 </p>
                 <p className="mb-8 font-open-sans text-base text-body-color">
                   If you make a request, we have one month to respond to you. If
