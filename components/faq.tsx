@@ -14,16 +14,23 @@ export default function Faq() {
             title="What is a Business Plan?"
             id="services text-primary"
           >
-            A business plan is a document that outlines your business idea,
-            strategy, and goals. It explains what your business does and how you
-            plan to succeed.
+            A business plan is a document that outlines your{" "}
+            <strong className="bold text-accent">business idea</strong>,{" "}
+            <strong className="bold text-accent">strategy</strong>, and{" "}
+            <strong className="bold text-accent">goals</strong>. It explains
+            what your business does and how you plan to{" "}
+            <strong className="bold text-accent">succeed</strong>.
           </Accordion>
         </div>
         <div className="mx-auto max-w-3xl px-4 text-lg text-primary sm:px-6">
           <Accordion title="What is a Financial Forecast Model?" id="services">
-            A financial forecast model is a tool that predicts your business’s
-            financial future. It estimates revenues, expenses, and profits to
-            help you plan ahead.
+            A financial forecast model is a tool that shows you{" "}
+            <strong className="bold text-accent">scenarios</strong> of your
+            business’s financial future. It estimates{" "}
+            <strong className="bold text-accent">revenues</strong>,{" "}
+            <strong className="bold text-accent">expenses</strong>, and{" "}
+            <strong className="bold text-accent">profits</strong> to help you
+            plan ahead.
           </Accordion>
         </div>
         <div className="mx-auto max-w-3xl px-4 text-lg text-primary sm:px-6">
