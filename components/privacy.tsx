@@ -11,7 +11,7 @@ const Privacy = () => {
     <>
       <section className="bg overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div className="container mx-auto">
-          <div className="-mx-4 flex flex-wrap items-center justify-between">
+          <div className="-mx-6 flex flex-wrap items-center justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
                 <div className="flex flex-row gap-4">
@@ -24,9 +24,14 @@ const Privacy = () => {
                   A legal disclaimer
                 </h2>
                 <p className="mb-5 font-open-sans text-base text-body-color">
-                  At Hampshire Business Plans, accessible from
-                  https://www.hampshirebusinessplans.co.uk/privacy, one of our
-                  main priorities is the privacy of our visitors.
+                  At Hampshire Business Plans, accessible from{" "}
+                  <a
+                    className="text-primary transition hover:text-secondary"
+                    href="/privacy"
+                  >
+                    hampshirebusinessplans.co.uk/privacy
+                  </a>
+                  , one of our main priorities is the privacy of our visitors.
                 </p>
                 <p className="mb-8 font-open-sans text-base text-body-color">
                   This Privacy Policy document contains types of information
