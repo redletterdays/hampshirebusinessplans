@@ -50,7 +50,7 @@ const Team = () => {
 
 export default Team;
 
-const TeamCard = ({ imageSrc, name, profession }) => {
+const TeamCard = ({ imageSrc, name, profession }: {imageSrc: string; name: string; profession: string;}) => {
   return (
     <>
       <div className="w-full px-4 md:w-1/2 xl:w-1/4">
