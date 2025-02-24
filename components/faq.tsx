@@ -14,7 +14,7 @@ export default function Faq() {
             title="What is a Business Plan?"
             id="services text-primary"
           >
-            A business plan is a document that outlines your{" "}
+            A Business Plan is a document that outlines your{" "}
             <strong className="bold text-accent">business idea</strong>,{" "}
             <strong className="bold text-accent">strategy</strong>, and{" "}
             <strong className="bold text-accent">goals</strong>. It explains
@@ -24,7 +24,7 @@ export default function Faq() {
         </div>
         <div className="mx-auto max-w-3xl px-4 text-lg text-primary sm:px-6">
           <Accordion title="What is a Financial Forecast Model?" id="services">
-            A financial forecast model is a tool that shows you{" "}
+            A Financial Forecast Model is a tool that shows you{" "}
             <strong className="bold text-accent">scenarios</strong> of your
             business’s financial future. It estimates{" "}
             <strong className="bold text-accent">revenues</strong>,{" "}

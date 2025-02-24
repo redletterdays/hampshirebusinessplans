@@ -79,14 +79,6 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-primary"
                   href="#0"
                 >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-primary"
-                  href="#0"
-                >
                   Contact us
                 </Link>
               </li>
@@ -131,7 +123,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
-                  href="/privacy"
+                  href="/"
                 >
                   Portsmouth
                 </Link>
@@ -139,7 +131,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
-                  href="/privacy"
+                  href="/"
                 >
                   Winchester
                 </Link>
@@ -147,7 +139,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
-                  href="/privacy"
+                  href="/"
                 >
                   Aldershot
                 </Link>
@@ -171,7 +163,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
-                  href="/privacy"
+                  href="/"
                 >
                   Basingstoke
                 </Link>
@@ -179,7 +171,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
-                  href="/privacy"
+                  href="/"
                 >
                   Eastleigh
                 </Link>
@@ -187,7 +179,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
-                  href="/privacy"
+                  href="/"
                 >
                   Farnborough
                 </Link>
@@ -195,7 +187,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
-                  href="/privacy"
+                  href="/"
                 >
                   Fleet
                 </Link>
