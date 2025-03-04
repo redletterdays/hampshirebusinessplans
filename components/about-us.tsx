@@ -1,10 +1,12 @@
 import React from "react";
 import { AboutUsIcon } from "./svgicons";
+import PageIllustration from "./page-illustration";
 
 const AboutUs = () => {
   return (
     <>
       <section className="bg overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-4">
+        <PageIllustration />
         <div className="mx-auto max-w-6xl px-8">
           <div className="-mx-6 flex flex-wrap items-center justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-8/12">
