@@ -26,31 +26,11 @@ const Team = ({
                 <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[30px]/[38px]">
                   Meet Your Business Planners
                 </h2>
-                <p className="mb-5 font-open-sans text-base text-body-color">
-                  At{" "}
-                  <a
-                    className="text-primary transition hover:text-secondary"
-                    href="/"
-                  >
-                    Hampshire Business Plans
-                  </a>
-                  , we empower local entrepreneurs to transform their ideas into
-                  actionable, tailored business plans. Our team is dedicated to
-                  simplifying the planning process, ensuring every client has a
-                  clear roadmap to success.
-                </p>
                 <p className="mb-8 font-open-sans text-base text-body-color">
-                  Based right here in Hampshire, we understand the unique
-                  challenges of starting and growing a business in our
-                  community. We combine local insight with professional
-                  expertise to create comprehensive business plans and financial
-                  forecast models that make a real difference.
-                </p>
-                <p className="mb-8 font-open-sans text-base text-body-color">
-                  Whether you’re just launching your venture or looking to
-                  refine your strategy, we’re here to support you every step of
-                  the way. Let’s build a brighter future for your business
-                  together.
+                  Our team is a group of local professionals who really listen
+                  and work with you to find practical solutions. With a mix of
+                  hands-on experience and straightforward advice, we’re here to
+                  help you navigate the real challenges of growing a business.
                 </p>
               </div>
             </div>
@@ -165,8 +145,8 @@ const TeamCard = ({
             />
             <div className="absolute bottom-5 left-0 w-full text-center">
               <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
-                <h3 className="font-op text-base font-semibold">{name}</h3>
-                <p className="font-open-sans text-xs text-body-color">
+                <h3 className="font-op text-lg font-semibold">{name}</h3>
+                <p className="font-open-sans text-s text-body-color">
                   {profession}
                 </p>
                 <div>
