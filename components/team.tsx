@@ -1,11 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import { AboutUsIcon } from "./svgicons";
+import { TeamIcon } from "./svgicons";
 
-const Team = () => {
+const Team = ({
+  id,
+  ...props
+}: { id?: string } & React.HTMLAttributes<HTMLElement>) => {
   return (
     <>
-      <section className="bg overflow-hidden pt-10 pb-12 lg:pt-10 lg:pb-4">
+      <section
+        id={id}
+        {...props}
+        className="bg overflow-hidden pt-10 pb-12 lg:pt-10 lg:pb-4"
+      >
         <div className="mx-auto max-w-6xl px-8">
           <div className="-mx-6 flex flex-wrap items-center justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-8/12">
@@ -14,7 +21,7 @@ const Team = () => {
                   <span className="mb-4 block text-4xl font-semibold text-primary">
                     Team
                   </span>
-                  <AboutUsIcon />
+                  <TeamIcon />
                 </div>
                 <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[30px]/[38px]">
                   Meet Your Business Planners
@@ -62,22 +69,23 @@ const Team = () => {
                 />
                 <div className="items-left flex w-full flex-col px-4 pb-8">
                   <h2 className="mb-5 text-xl font-bold text-dark sm:text-xl">
-                    The visionary entrepreneur behind Horízōn.
+                    The visionary entrepreneur behind Hampshire Business Plans.
                   </h2>
                   <p className="mb-3 font-open-sans text-base text-body-color">
                     Driven by personal experiences of financial struggle within
-                    his family, Paul founded Horízōn to empower business owners
-                    with strategic financial decisions.
+                    his family, Paul founded Hampshire Business Plans to empower
+                    business owners with strategic financial decisions.
                   </p>
                   <p className="mb-3 font-open-sans text-base text-body-color">
                     Holding a degree in Accounting and Finance from Warwick
                     Business School after successfully securing an investment
                     bank scholarship, he envisions a future where businesses
-                    thrive with Horízōn's tools.
+                    thrive with Hampshire Business Plans' tools.
                   </p>
                   <p className="mb-3 font-open-sans text-base text-body-color">
                     He champions equal opportunities for all, aiming to create a
-                    diverse and inclusive environment within Horízōn and beyond.
+                    diverse and inclusive environment within Hampshire Business
+                    Plans and beyond.
                   </p>
                   <p className="mb-3 font-open-sans text-base text-body-color">
                     As a role model and mentor, Paul inspires young innovators

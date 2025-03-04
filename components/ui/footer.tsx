@@ -77,6 +77,14 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
+                  href="/about#team"
+                >
+                  Team
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-gray-600 transition hover:text-primary"
                   href="mailto:paul@yourfinancialhorizon.com"
                 >
                   Contact us

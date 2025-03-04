@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Banner />
       <AboutUs />
-      <Team />
+      <Team id="team"/>
       <Cta />
       <Faq />
     </>
