@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <section className="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+    <section className="git ppb-10 lg:pt-[120px] lg:pb-20">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -26,12 +26,12 @@ const Team = () => {
           <TeamCard
             name="Paul Thomas"
             profession="Financial Modelling Expert"
-            imageSrc="/images/large-testimonial.jpg"
+            imageSrc="/images/paul.jpeg"
           />
           <TeamCard
             name="Shafi Saleh"
             profession="Financial Technology Expert"
-            imageSrc="/images/large-testimonial.jpg"
+            imageSrc="/images/shafi.jpeg"
           />
         </div>
       </div>
