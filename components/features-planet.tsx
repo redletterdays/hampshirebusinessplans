@@ -6,9 +6,9 @@ import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
 import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
 import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 
-export default function FeaturesPlanet() {
+export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTMLAttributes<HTMLElement>) {
   return (
-    <section className="before:bg relative before:absolute before:inset-0 before:-z-20">
+    <section id={id} {...props} className="before:bg relative before:absolute before:inset-0 before:-z-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}

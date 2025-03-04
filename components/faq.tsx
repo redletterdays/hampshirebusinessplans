@@ -1,8 +1,8 @@
 import Accordion from "./accordion";
 
-export default function Faq() {
+export default function Faq({id, ...props}:{id?: string} & React.HTMLAttributes<HTMLElement>) {
   return (
-    <section className="mb-16 md:mb-20">
+    <section id={id} {...props} className="mb-16 md:mb-20">
       <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
         <h2 className="text-3xl font-bold text-black md:text-4xl">
           Frequently Asked Questions

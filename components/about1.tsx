@@ -2,10 +2,10 @@ import React from "react";
 import { ListTick } from "./listtick";
 import { MapIcon, CompassIcon, FullExpeditionIcon } from "./svgicons";
 
-const About1 = () => {
+const About1 = ({ id, ...props }: {id?: string} & React.HTMLAttributes<HTMLElement>) => {
   return (
     <>
-      <section className="bg overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+      <section id={id} {...props} className="bg overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap items-center justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
