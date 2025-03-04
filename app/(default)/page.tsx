@@ -22,7 +22,7 @@ export default function Home() {
       <LargeTestimonial />
       <About1 />
       <PageIllustration />
-      <Pricing />
+      <Pricing id="pricing"/>
       <FeaturesPlanet />
       <Cta />
       <Faq />

@@ -2,9 +2,9 @@ import React from "react";
 import { ReactNode } from "react";
 import { MapIcon, CompassIcon, FullExpeditionIcon } from "./svgicons";
 
-const Pricing = () => {
+const Pricing = ({ id, ...props }: {id?: string} & React.HTMLAttributes<HTMLElement>) => {
   return (
-    <section className="bg relative z-10 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+    <section id={id} {...props} className="bg relative z-10 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
