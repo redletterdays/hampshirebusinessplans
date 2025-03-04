@@ -56,7 +56,7 @@ export default function HeroHome() {
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <div
-              className="mb-6 flex flex-row justify-center border-y [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]"
+              className="mb-6 flex flex-row justify-center border-y gap-6 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]"
               data-aos="zoom-y-out"
             >
               <Link href="/">
