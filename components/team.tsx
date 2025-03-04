@@ -1,19 +1,20 @@
 import React from "react";
+import Image from "next/image";
 
 const Team = () => {
   return (
-    <section className="pt-20 pb-10 lg:pt-[120px] lg:pb-20 ">
+    <section className="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <span className="mb-2 block text-lg font-semibold text-primary">
-                Our Team
+                Hampshire Business Plan Team
               </span>
-              <h2 className="mb-3 text-3xl leading-[1.2] font-bold  sm:text-4xl md:text-[40px] ">
-                Our Awesome Team
+              <h2 className="mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
+                Team
               </h2>
-              <p className="text-base text-body-color ">
+              <p className="font-open-sans text-base text-body-color">
                 There are many variations of passages of Lorem Ipsum available
                 but the majority have suffered alteration in some form.
               </p>
@@ -23,24 +24,14 @@ const Team = () => {
 
         <div className="-mx-4 flex flex-wrap justify-center">
           <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
-            imageSrc="https://i.ibb.co/T1J9LD4/image-03-2.jpg"
+            name="Paul Thomas"
+            profession="Financial Modelling Expert"
+            imageSrc="/images/large-testimonial.jpg"
           />
           <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
-            imageSrc="https://i.ibb.co/8P6cvVy/image-01-1.jpg"
-          />
-          <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
-            imageSrc="https://i.ibb.co/30tGtjP/image-04.jpg"
-          />
-          <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
-            imageSrc="https://i.ibb.co/yVVT0Dp/image-02-2.jpg"
+            name="Shafi Saleh"
+            profession="Financial Technology Expert"
+            imageSrc="/images/large-testimonial.jpg"
           />
         </div>
       </div>
@@ -50,19 +41,31 @@ const Team = () => {
 
 export default Team;
 
-const TeamCard = ({ imageSrc, name, profession }: {imageSrc: string; name: string; profession: string;}) => {
+const TeamCard = ({
+  imageSrc,
+  name,
+  profession,
+}: {
+  imageSrc: string;
+  name: string;
+  profession: string;
+}) => {
   return (
     <>
       <div className="w-full px-4 md:w-1/2 xl:w-1/4">
         <div className="mx-auto mb-10 w-full max-w-[370px]">
           <div className="relative overflow-hidden rounded-lg">
-            <img src={imageSrc} alt="" className="w-full" />
+            <Image
+              src={imageSrc}
+              alt={name}
+              width={370}
+              height={370}
+              className="w-full"
+            />
             <div className="absolute bottom-5 left-0 w-full text-center">
-              <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5 ">
-                <h3 className="text-base font-semibold  ">
-                  {name}
-                </h3>
-                <p className="text-xs text-body-color ">
+              <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
+                <h3 className="font-op text-base font-semibold">{name}</h3>
+                <p className="font-open-sans text-xs text-body-color">
                   {profession}
                 </p>
                 <div>
