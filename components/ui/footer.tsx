@@ -19,7 +19,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; hampshirebusinessplans.co.uk - All rights reserved.
+              &copy; hampshirebusinessplans.com - All rights reserved.
             </div>
           </div>
 

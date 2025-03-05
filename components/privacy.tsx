@@ -26,7 +26,7 @@ const Privacy = () => {
                     className="text-primary transition hover:text-secondary"
                     href="/privacy"
                   >
-                    hampshirebusinessplans.co.uk/privacy
+                    hampshirebusinessplans.com/privacy
                   </a>
                   , one of our main priorities is the privacy of our visitors.
                 </p>
