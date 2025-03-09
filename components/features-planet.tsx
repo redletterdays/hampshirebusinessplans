@@ -22,9 +22,9 @@ export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTML
           {/* Planet */}
           <div className="pb-16 md:pb-20" data-aos="zoom-y-out">
             <div className="text-center">
-              <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:animate-[pulse_4s_cubic-bezier(.4,0,.6,1)_infinite] before:bg-linear-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] after:[background:radial-gradient(closest-side,var(--color-primary),transparent)]">
+              <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85]  before:bg-linear-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] ">
                 <Image
-                  className="rounded-3xl bg-gray-300"
+                  className="rounded-3xl bg-gray-300 w-[400px] md:w-[600px]"
                   src={Hampshire}
                   width={600}
                   height={600}
@@ -33,30 +33,30 @@ export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTML
                 <div className="pointer-events-none" aria-hidden="true">
                   <div>
                     <Image
-                      className="absolute top-16 -left-28 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-80 transition-opacity duration-500"
+                      className="absolute top-28 -left-8 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-70 transition-opacity duration-500 md:top-36 md:-left-8"
                       src={LocationTagImg01}
-                      width={153}
+                      width={253}
                       height={56}
                       alt="Tag 01"
                     />
                     <Image
-                      className="absolute top-7 left-56 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-80 transition-opacity duration-500"
+                      className="absolute top-7 -right-6 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-70 transition-opacity duration-500 md:top-7 md:-right-16"
                       src={LocationTagImg02}
-                      width={141}
+                      width={241}
                       height={56}
                       alt="Tag 02"
                     />
                     <Image
-                      className="absolute bottom-24 -left-20 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-80 transition-opacity duration-500"
+                      className="absolute bottom-8 -left-10 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-70 transition-opacity duration-500 md:bottom-24 md:-left-20"
                       src={LocationTagImg03}
-                      width={143}
+                      width={243}
                       height={56}
                       alt="Tag 03"
                     />
                     <Image
-                      className="absolute bottom-32 left-64 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-80 transition-opacity duration-500"
+                      className="absolute bottom-32 -right-6 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-70 transition-opacity duration-500 md:bottom-52 md:-right-6"
                       src={LocationTagImg04}
-                      width={151}
+                      width={251}
                       height={56}
                       alt="Tag 04"
                     />
