@@ -1,10 +1,11 @@
 import Image from "next/image";
 import PlanetImg from "@/public/images/planet.png";
-import PlanetOverlayImg from "@/public/images/planet-overlay.svg";
-import PlanetTagImg01 from "@/public/images/planet-tag-01.png";
-import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
-import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
-import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
+import Hampshire from "@/public/images/hampshire.png";
+import LocationTagImg01 from "@/public/images/location-tag-01.png";
+import LocationTagImg02 from "@/public/images/location-tag-02.png";
+import LocationTagImg03 from "@/public/images/location-tag-03.png";
+import LocationTagImg04 from "@/public/images/location-tag-04.png";
+
 
 export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTMLAttributes<HTMLElement>) {
   return (
@@ -23,39 +24,39 @@ export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTML
             <div className="text-center">
               <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:animate-[pulse_4s_cubic-bezier(.4,0,.6,1)_infinite] before:bg-linear-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] after:[background:radial-gradient(closest-side,var(--color-primary),transparent)]">
                 <Image
-                  className="rounded-full bg-gray-300"
-                  src={PlanetImg}
-                  width={400}
-                  height={400}
+                  className="rounded-3xl bg-gray-300"
+                  src={Hampshire}
+                  width={600}
+                  height={600}
                   alt="Planet"
                 />
                 <div className="pointer-events-none" aria-hidden="true">
                   <div>
                     <Image
                       className="absolute top-16 -left-28 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-80 transition-opacity duration-500"
-                      src={PlanetTagImg01}
-                      width={253}
+                      src={LocationTagImg01}
+                      width={153}
                       height={56}
                       alt="Tag 01"
                     />
                     <Image
-                      className="absolute top-7 left-56 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-30 transition-opacity duration-500"
-                      src={PlanetTagImg02}
-                      width={241}
+                      className="absolute top-7 left-56 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-80 transition-opacity duration-500"
+                      src={LocationTagImg02}
+                      width={141}
                       height={56}
                       alt="Tag 02"
                     />
                     <Image
-                      className="absolute bottom-24 -left-20 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-25 transition-opacity duration-500"
-                      src={PlanetTagImg03}
-                      width={243}
+                      className="absolute bottom-24 -left-20 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-80 transition-opacity duration-500"
+                      src={LocationTagImg03}
+                      width={143}
                       height={56}
                       alt="Tag 03"
                     />
                     <Image
                       className="absolute bottom-32 left-64 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-80 transition-opacity duration-500"
-                      src={PlanetTagImg04}
-                      width={251}
+                      src={LocationTagImg04}
+                      width={151}
                       height={56}
                       alt="Tag 04"
                     />
