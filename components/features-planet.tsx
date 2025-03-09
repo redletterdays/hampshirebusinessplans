@@ -33,30 +33,30 @@ export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTML
                 <div className="pointer-events-none" aria-hidden="true">
                   <div>
                     <Image
-                      className="absolute top-28 -left-8 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-70 transition-opacity duration-500 md:top-36 md:-left-8"
+                      className="absolute top-28 -left-8 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-60 transition-opacity duration-500 md:top-36 md:-left-8 md:w-70"
                       src={LocationTagImg01}
-                      width={253}
+                      width={200}
                       height={56}
                       alt="Tag 01"
                     />
                     <Image
-                      className="absolute top-7 -right-6 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-70 transition-opacity duration-500 md:top-7 md:-right-16"
+                      className="absolute top-7 -right-6 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-70 transition-opacity duration-500 md:top-7 md:-right-16 md:w-70"
                       src={LocationTagImg02}
-                      width={241}
+                      width={200}
                       height={56}
                       alt="Tag 02"
                     />
                     <Image
-                      className="absolute bottom-8 -left-10 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-70 transition-opacity duration-500 md:bottom-24 md:-left-20"
+                      className="absolute bottom-8 -left-10 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-70 transition-opacity duration-500 md:bottom-24 md:-left-20 md:w-70"
                       src={LocationTagImg03}
-                      width={243}
+                      width={200}
                       height={56}
                       alt="Tag 03"
                     />
                     <Image
-                      className="absolute bottom-32 -right-6 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-70 transition-opacity duration-500 md:bottom-52 md:-right-6"
+                      className="absolute bottom-32 -right-6 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-60 transition-opacity duration-500 md:bottom-52 md:-right-6 md:w-70"
                       src={LocationTagImg04}
-                      width={251}
+                      width={200}
                       height={56}
                       alt="Tag 04"
                     />
