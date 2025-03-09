@@ -59,7 +59,7 @@ export default function HeroHome() {
               className="mb-6 flex flex-row justify-center border-y gap-6 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]"
               data-aos="zoom-y-out"
             >
-              <Link href="/">
+              <Link href="/#features">
                 <div className="-mx-0.5 flex justify-center -space-x-3">
                   <svg
                     className="box-content rounded-full border-1 border-primary bg-gray-2 fill-primary"
@@ -73,7 +73,7 @@ export default function HeroHome() {
                   </svg>
                 </div>
               </Link>
-              <Link href="/">
+              <Link href="/#features">
                 <div className="-mx-0.5 flex justify-center -space-x-3">
                   <svg
                     className="box-content rounded-full border-1 border-primary bg-gray-2 fill-primary"
@@ -99,7 +99,7 @@ export default function HeroHome() {
                   </svg>
                 </div>
               </Link>
-              <Link href="/">
+              <Link href="/#features">
                 <div className="-mx-0.5 flex justify-center -space-x-3">
                   <svg
                     className="box-content rounded-full border-1 border-primary bg-gray-2 fill-primary"

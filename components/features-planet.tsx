@@ -6,10 +6,16 @@ import LocationTagImg02 from "@/public/images/location-tag-02.png";
 import LocationTagImg03 from "@/public/images/location-tag-03.png";
 import LocationTagImg04 from "@/public/images/location-tag-04.png";
 
-
-export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTMLAttributes<HTMLElement>) {
+export default function FeaturesPlanet({
+  id,
+  ...props
+}: { id?: string } & React.HTMLAttributes<HTMLElement>) {
   return (
-    <section id={id} {...props} className="before:bg relative before:absolute before:inset-0 before:-z-20">
+    <section
+      id={id}
+      {...props}
+      className="before:bg relative before:absolute before:inset-0 before:-z-20"
+    >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
@@ -22,13 +28,17 @@ export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTML
           {/* Planet */}
           <div className="pb-16 md:pb-20" data-aos="zoom-y-out">
             <div className="text-center">
-              <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85]  before:bg-linear-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] ">
+              <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:bg-linear-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit]">
                 <Image
-                  className="rounded-3xl bg-gray-300 w-[400px] md:w-[600px]"
+                  className="w-[400px] rounded-3xl bg-gray-300 md:w-[600px]"
                   src={Hampshire}
                   width={600}
                   height={600}
-                  alt="Planet"
+                  alt="Hampshire Map"
+                  loading="lazy"
+                  quality={80}
+                  priority={false}
+                  placeholder="blur"
                 />
                 <div className="pointer-events-none" aria-hidden="true">
                   <div>
@@ -38,6 +48,10 @@ export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTML
                       width={200}
                       height={56}
                       alt="Tag 01"
+                      loading="lazy"
+                      quality={80}
+                      priority={false}
+                      placeholder="blur"
                     />
                     <Image
                       className="absolute top-7 -right-6 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-70 transition-opacity duration-500 md:top-7 md:-right-16 md:w-70"
@@ -45,6 +59,10 @@ export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTML
                       width={200}
                       height={56}
                       alt="Tag 02"
+                      loading="lazy"
+                      quality={80}
+                      priority={false}
+                      placeholder="blur"
                     />
                     <Image
                       className="absolute bottom-8 -left-10 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-70 transition-opacity duration-500 md:bottom-24 md:-left-20 md:w-70"
@@ -52,13 +70,21 @@ export default function FeaturesPlanet({id, ...props}:{id?: string} & React.HTML
                       width={200}
                       height={56}
                       alt="Tag 03"
+                      loading="lazy"
+                      quality={80}
+                      priority={false}
+                      placeholder="blur"
                     />
                     <Image
-                      className="absolute bottom-32 -right-6 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-60 transition-opacity duration-500 md:bottom-52 md:-right-6 md:w-70"
+                      className="absolute -right-6 bottom-32 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-60 transition-opacity duration-500 md:-right-6 md:bottom-52 md:w-70"
                       src={LocationTagImg04}
                       width={200}
                       height={56}
                       alt="Tag 04"
+                      loading="lazy"
+                      quality={80}
+                      priority={false}
+                      placeholder="blur"
                     />
                   </div>
                 </div>
