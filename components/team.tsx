@@ -142,11 +142,15 @@ const TeamCard = ({
               width={370}
               height={370}
               className="w-full"
+              loading="lazy"
+              quality={80}
+              priority={false}
+              placeholder="blur"
             />
             <div className="absolute bottom-5 left-0 w-full text-center">
               <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
                 <h3 className="font-op text-lg font-semibold">{name}</h3>
-                <p className="font-open-sans text-s text-body-color">
+                <p className="text-s font-open-sans text-body-color">
                   {profession}
                 </p>
                 <div>

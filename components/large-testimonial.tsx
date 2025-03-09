@@ -4,8 +4,7 @@ import TestimonialImg from "@/public/images/large-testimonial.jpg";
 export default function LargeTestimonial() {
   return (
     <section>
-      <div className="mx-auto max-w-2xl px-4 sm:px-6"
-      data-aos="zoom-y-out">
+      <div className="mx-auto max-w-2xl px-4 sm:px-6" data-aos="zoom-y-out">
         <div className="py-12 md:py-20">
           <div className="space-y-3 text-center">
             <div className="relative inline-flex animate-[breath_8s_ease-in-out_infinite_both]">
@@ -28,6 +27,10 @@ export default function LargeTestimonial() {
                 width={100}
                 height={100}
                 alt="Large testimonial"
+                loading="lazy"
+                quality={80}
+                priority={false}
+                placeholder="blur"
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
