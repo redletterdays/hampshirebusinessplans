@@ -13,7 +13,7 @@ export default function Banner() {
             <div className="inline-flex text-slate-500">
               <a
                 className="font-medium text-slate-50 hover:underline"
-                href="mailto:paul@yourfinancialhorizon.com"
+                href="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
                 target="_blank"
                 rel="noreferrer"
               >

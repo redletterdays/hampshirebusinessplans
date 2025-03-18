@@ -22,7 +22,7 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="mailto:paul@yourfinancialhorizon.com"
+                href="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
                 className="btn-sm bg-white text-gray-800 shadow-sm hover:bg-gray-50"
               >
                 Contact us Today

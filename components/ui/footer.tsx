@@ -85,7 +85,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-primary"
-                  href="mailto:paul@yourfinancialhorizon.com"
+                  href="https://tidycal.com/horizon/hampshire-business-plan-initial-consultation"
                 >
                   Contact us
                 </Link>
@@ -251,7 +251,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
             </ul>
           </div>
 
-          {/* 6th block */}
+          {/* 6th block 
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium">Social</h3>
             <ul className="flex gap-1">
@@ -271,7 +271,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 
