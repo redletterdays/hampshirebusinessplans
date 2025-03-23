@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin
+Disallow: /404
+
+# Host
+Host: https://hampshirebusinessplans.com
+
+# Sitemaps
+Sitemap: https://hampshirebusinessplans.com/sitemap.xml
